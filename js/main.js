@@ -1,7 +1,7 @@
 $(() => {
-const $app_window_1 = new $Window({ title: "Start", resizable: true });
+const $app_window_1 = new $Window({ title: "Speen", resizable: true });
 	$app_window_1.$content.append(`
-		<p>Welcome to my website!</p>
+	<img src="images/frog.gif" style="height: 100%; width: 100%; object-fit: contain">
 	`);
 	fake_closing($app_window_1);
 
